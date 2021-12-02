@@ -1,6 +1,7 @@
 import React from "react";
 import "./Post.css";
 import Avatar from "@material-ui/core";
+
 function Post(displayName, username, verified, text, image, avatar) {
   return (
     <div className="post">
@@ -8,4 +9,5 @@ function Post(displayName, username, verified, text, image, avatar) {
     </div>
   );
 }
+
 export default Post;
